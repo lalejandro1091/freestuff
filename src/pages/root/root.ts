@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PPage } from '../p/p';
+import { SeriesPage } from '../series/series';
+import { PeliculasPage } from '../peliculas/peliculas';
 
 /**
  * Generated class for the RootPage page.
@@ -21,5 +24,13 @@ export class RootPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RootPage');
   }
-
+  goP(){
+    this.navCtrl.push(PPage);
+  }
+  goSeries(){
+    this.navCtrl.push(SeriesPage);
+  }
+  goPeliculas(){
+    this.navCtrl.push(PeliculasPage);
+  }
 }

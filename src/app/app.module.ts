@@ -11,6 +11,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
 import { RootPage } from '../pages/root/root';
+import { PPage } from '../pages/p/p';
+import { SeriesPage } from '../pages/series/series';
+import { PeliculasPage } from '../pages/peliculas/peliculas';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { RootPage } from '../pages/root/root';
     HomePage,
     ListPage,
     LoginPage,
-    RootPage
+    RootPage,
+    PPage,
+    SeriesPage,
+    PeliculasPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,10 @@ import { RootPage } from '../pages/root/root';
     HomePage,
     ListPage,
     LoginPage,
-    RootPage
+    RootPage,
+    PPage,
+    SeriesPage,
+    PeliculasPage
   ],
   providers: [
     StatusBar,
