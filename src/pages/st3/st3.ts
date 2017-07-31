@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SimpsonPage } from '../simpson/simpson';
-import { DragonZPage } from '../dragon-z/dragon-z';
-
+import { St2Page } from '../st2/st2';
+import { St4Page } from '../st4/st4';
 
 /**
- * Generated class for the SeriesPage page.
+ * Generated class for the St3Page page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
@@ -13,21 +12,21 @@ import { DragonZPage } from '../dragon-z/dragon-z';
 
 @IonicPage()
 @Component({
-  selector: 'page-series',
-  templateUrl: 'series.html',
+  selector: 'page-st3',
+  templateUrl: 'st3.html',
 })
-export class SeriesPage {
+export class St3Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SeriesPage');
+    console.log('ionViewDidLoad St3Page');
   }
-  goS(){
-    this.navCtrl.push(SimpsonPage);
+  goSt2(){
+    this.navCtrl.push(St2Page);
   }
-  goD(){
-    this.navCtrl.push(DragonZPage);
+  goSt4(){
+    this.navCtrl.push(St4Page);
   }
 }
