@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { P1Page } from '../p1/p1';
+import { P2Page } from '../p2/p2';
+import { P3Page } from '../p3/p3';
 
 /**
  * Generated class for the PPage page.
@@ -21,5 +24,13 @@ export class PPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad PPage');
   }
-
+  goP1(){
+    this.navCtrl.push(P1Page);
+  }
+  goP2(){
+    this.navCtrl.push(P2Page);
+  }
+  goP3(){
+    this.navCtrl.push(P3Page);
+  }
 }

@@ -21,5 +21,11 @@ export class P3Page {
   ionViewDidLoad() {
     console.log('ionViewDidLoad P3Page');
   }
+  goP2(){
+
+  }
+  goP4(){
+    
+  }
 
 }

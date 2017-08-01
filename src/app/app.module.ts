@@ -41,6 +41,9 @@ import { St22Page } from '../pages/st22/st22';
 import { St23Page } from '../pages/st23/st23';
 import { St24Page } from '../pages/st24/st24';
 import { St25Page } from '../pages/st25/st25';
+import { P1Page } from '../pages/p1/p1';
+import { P2Page } from '../pages/p2/p2';
+import { P3Page } from '../pages/p3/p3';
 
 @NgModule({
   declarations: [
@@ -78,7 +81,10 @@ import { St25Page } from '../pages/st25/st25';
     St22Page,
     St23Page,
     St24Page,
-    St25Page
+    St25Page,
+    P1Page,
+    P2Page,
+    P3Page
   ],
   imports: [
     BrowserModule,
@@ -121,7 +127,10 @@ import { St25Page } from '../pages/st25/st25';
     St22Page,
     St23Page,
     St24Page,
-    St25Page
+    St25Page,
+    P1Page,
+    P2Page,
+    P3Page
   ],
   providers: [
     StatusBar,
