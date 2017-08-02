@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { St7Page } from '../st7/st7';
+import { St9Page } from '../st9/st9';
 
 /**
  * Generated class for the St8Page page.
@@ -22,4 +24,10 @@ export class St8Page {
     console.log('ionViewDidLoad St8Page');
   }
 
+  goSt7(){
+    this.navCtrl.push(St7Page);
+  }
+  goSt9(){
+    this.navCtrl.push(St9Page);
+  }
 }

@@ -7,12 +7,21 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>dragonZ</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Dragon Ball Z</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+<button ion-button round block (click)="goSs()">Saga Saiyajin</button>
+<button ion-button round block (click)="goSf()">Saga de Freezer</button>
+<button ion-button round block (click)="goSgj()">Saga de Garlick Jr</button>
+<button ion-button round block (click)="goSa()">Saga de los Androides</button>
+<button ion-button round block (click)="goSmb()">Saga de Majin Boo</button>
+<button ion-button round block (click)="goEo()">Especiales y OVA</button>
+<button ion-button round block (click)="goPeliculas()">Películas</button>
 </ion-content>

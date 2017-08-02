@@ -44,6 +44,13 @@ import { St25Page } from '../pages/st25/st25';
 import { P1Page } from '../pages/p1/p1';
 import { P2Page } from '../pages/p2/p2';
 import { P3Page } from '../pages/p3/p3';
+import { DssPage } from '../pages/dss/dss';
+import { DsfPage } from '../pages/dsf/dsf';
+import { DsgjPage } from '../pages/dsgj/dsgj';
+import { DsaPage } from '../pages/dsa/dsa';
+import { DsmbPage } from '../pages/dsmb/dsmb';
+import { DeoPage } from '../pages/deo/deo';
+import { DPeliculasPage } from '../pages/d-peliculas/d-peliculas';
 
 @NgModule({
   declarations: [
@@ -84,7 +91,14 @@ import { P3Page } from '../pages/p3/p3';
     St25Page,
     P1Page,
     P2Page,
-    P3Page
+    P3Page,
+    DssPage,
+    DsfPage,
+    DsgjPage,
+    DsaPage,
+    DsmbPage,
+    DeoPage,
+    DPeliculasPage
   ],
   imports: [
     BrowserModule,
@@ -130,7 +144,14 @@ import { P3Page } from '../pages/p3/p3';
     St25Page,
     P1Page,
     P2Page,
-    P3Page
+    P3Page,
+    DssPage,
+    DsfPage,
+    DsgjPage,
+    DsaPage,
+    DsmbPage,
+    DeoPage,
+    DPeliculasPage
   ],
   providers: [
     StatusBar,
