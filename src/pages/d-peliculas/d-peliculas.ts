@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DeoPage } from '../deo/deo';
 
 /**
  * Generated class for the DPeliculasPage page.
@@ -22,4 +23,7 @@ export class DPeliculasPage {
     console.log('ionViewDidLoad DPeliculasPage');
   }
 
+  goEo(){
+    this.navCtrl.push(DeoPage);
+  }
 }

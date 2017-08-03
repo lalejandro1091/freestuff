@@ -7,6 +7,9 @@
 <ion-header>
 
   <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>deo</ion-title>
   </ion-navbar>
 
@@ -14,5 +17,42 @@
 
 
 <ion-content padding>
-
+<ion-row>
+    <ion-col>
+      <button ion-button round block (click)="goSgj()">Saga de Majin Boo</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button round block (click)="goDpeliculas()">Peliculas</button>
+    </ion-col>
+  </ion-row>
+<ion-card>
+    <ion-card-header>Bardock, El padre de Goku</ion-card-header>
+    <video width="100%" height="100%" preload="none" controls poster="img/simpson.png">
+      <source src="http://freestuff.pe.hu/vid/series/dragonz/eo/1.mp4" type="video/mp4">
+    </video>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Los Dos Guerreros Del Futuro, Gohan Y Trunks</ion-card-header>
+    <video width="100%" height="100%" preload="none" controls poster="img/simpson.png">
+      <source src="http://freestuff.pe.hu/vid/series/dragonz/eo/2.mp4" type="video/mp4">
+    </video>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Hey! Goku y sus Amigos Regresan!</ion-card-header>
+    <video width="100%" height="100%" preload="none" controls poster="img/simpson.png">
+      <source src="http://freestuff.pe.hu/vid/series/dragonz/eo/3.mp4" type="video/mp4">
+    </video>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Episodio de Bardock</ion-card-header>
+    <video width="100%" height="100%" preload="none" controls poster="img/simpson.png">
+      <source src="http://freestuff.pe.hu/vid/series/dragonz/eo/4.mp4" type="video/mp4">
+    </video>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>Episodio de Bardock</ion-card-header>
+    <video width="100%" height="100%" preload="none" controls poster="img/simpson.png">
+      <source src="http://freestuff.pe.hu/vid/series/dragonz/eo/5.mp4" type="video/mp4">
+    </video>
+  </ion-card>
 </ion-content>
