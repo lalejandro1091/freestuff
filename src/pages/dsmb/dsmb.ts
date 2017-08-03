@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DsaPage } from '../dsa/dsa';
+import { DeoPage } from '../deo/deo';
 
 /**
  * Generated class for the DsmbPage page.
@@ -22,4 +24,10 @@ export class DsmbPage {
     console.log('ionViewDidLoad DsmbPage');
   }
 
+  goSa(){
+    this.navCtrl.push(DsaPage);
+  }
+  goEo(){
+    this.navCtrl.push(DeoPage);
+  }
 }

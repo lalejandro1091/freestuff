@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { DsfPage } from '../dsf/dsf';
+import { DsaPage } from '../dsa/dsa';
 
 /**
  * Generated class for the DsgjPage page.
@@ -22,4 +24,10 @@ export class DsgjPage {
     console.log('ionViewDidLoad DsgjPage');
   }
 
+  goSf(){
+    this.navCtrl.push(DsfPage);
+  }
+  goSa(){
+    this.navCtrl.push(DsaPage);
+  }
 }
